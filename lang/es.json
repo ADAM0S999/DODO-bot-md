@@ -889,6 +889,19 @@
       "desc": "Gestiona los ajustes de anti-mención de grupos 🛡️",
       "ignore_prompt": "*Jefe, por favor proporciona un JID para ignorar.* 🕵️‍♂️"
     },
+    "antigstatus": {
+      "usage": "> Uso:\n- antigstatus <on|off> — Activar o desactivar anti estado de grupo\n- antigstatus ignore <jid,jid,jid,...> — Ignorar anti estado de grupo para grupos específicos\n- antigstatus unignore <jid,jid,...> — Quitar de la lista de ignorados\n- antigstatus list — Ver lista de ignorados\n- antigstatus clear — Limpiar lista de ignorados",
+      "filter": "JIDs ignorados actualizados para anti estado de grupo.",
+      "enabled": "Anti estado de grupo ha sido activado.",
+      "disabled": "Anti estado de grupo ha sido desactivado.",
+      "desc": "Gestiona los ajustes de anti-estado de grupos 🛡️",
+      "ignore_prompt": "*Jefe, por favor proporciona un JID para ignorar.* 🕵️‍♂️",
+      "unignore_prompt": "*Jefe, por favor proporciona un JID para quitar de la lista.* 🕵️‍♂️",
+      "removed": "JIDs eliminados de la lista de ignorados. 🗑️",
+      "list_empty": "*No hay grupos en la lista de ignorados.*",
+      "list_header": "*Grupos ignorados:*",
+      "cleared": "*Lista de ignorados limpiada.* 🧹"
+    },
     "reminder": {
       "desc": "Administrar recordatorios de Google Calendar.",
       "usage": "> *Uso de Recordatorios:*\n- `reminder <texto>` - Establecer un nuevo recordatorio (ej. 'reunión mañana a las 10am')\n- `reminder list` - Listar todos los recordatorios\n- `reminder del <id>` - Eliminar un recordatorio",
@@ -1017,7 +1030,11 @@
       "del_not_found": "_{0} no está en la lista._",
       "del_success": "_{0} eliminado de la lista._",
       "summary_desc": "para obtener el resumen del presupuesto",
-      "summary_example": "*Ejemplo : summary 1 May 2023, 3 May 2023*"
+      "summary_example": "*Ejemplo : summary 1 May 2023, 3 May 2023*",
+      "budget_desc": "Entrada de presupuesto con IA - solo describe tu transacción",
+      "budget_example": "*Describe tu transacción naturalmente*\n\n*Ejemplos:*\n_budget gasté 50 en café_\n_budget recibí salario 3000_\n_budget pagué 200 de alquiler_\n_budget taxi 15_",
+      "budget_failed": "*No pude entender la transacción. Intenta de nuevo.*\n\n_Ejemplo: budget gasté 50 en café_",
+      "budget_success": "*{0} registrado*\n_Monto: {1}_\n_Categoría: {2}_\n_Nota: {3}_\n\n*Total de {0} este mes: {4}*"
     },
     "exif": {
       "desc": "Extrae metadatos Exif de un sticker",

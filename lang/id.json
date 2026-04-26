@@ -889,6 +889,19 @@
       "desc": "Kelola pengaturan anti mention grup 🛡️",
       "ignore_prompt": "*Bos, berikan JID untuk diabaikan.* 🕵️‍♂️"
     },
+    "antigstatus": {
+      "usage": "> Penggunaan:\n- antigstatus on | off — Aktifkan atau nonaktifkan anti-status grup\n- antigstatus ignore jid,jid,... — Abaikan anti-status grup dari grup tertentu\n- antigstatus unignore jid,jid,... — Hapus dari daftar abaikan\n- antigstatus list — Lihat daftar yang diabaikan\n- antigstatus clear — Bersihkan daftar abaikan",
+      "filter": "JID yang diabaikan diperbarui untuk anti-status grup.",
+      "enabled": "Anti-status grup telah diaktifkan.",
+      "disabled": "Anti-status grup telah dinonaktifkan.",
+      "desc": "Kelola pengaturan anti status grup 🛡️",
+      "ignore_prompt": "*Bos, berikan JID untuk diabaikan.* 🕵️‍♂️",
+      "unignore_prompt": "*Bos, berikan JID untuk dihapus dari daftar.* 🕵️‍♂️",
+      "removed": "JID dihapus dari daftar abaikan. 🗑️",
+      "list_empty": "*Tidak ada grup di daftar abaikan.*",
+      "list_header": "*Grup yang diabaikan:*",
+      "cleared": "*Daftar abaikan dibersihkan.* 🧹"
+    },
     "reminder": {
       "desc": "Kelola pengingat Google Calendar.",
       "usage": "> *Penggunaan Pengingat:*\n- `reminder <teks>` - Setel pengingat baru (mis. 'rapat besok jam 10 pagi')\n- `reminder list` - Daftar semua pengingat\n- `reminder del <id>` - Hapus pengingat",
@@ -1017,7 +1030,11 @@
       "del_not_found": "_{0} tidak ada dalam daftar._",
       "del_success": "_{0} dihapus dari daftar._",
       "summary_desc": "untuk mendapatkan ringkasan budget",
-      "summary_example": "*Contoh : summary 1 May 2023, 3 May 2023*"
+      "summary_example": "*Contoh : summary 1 May 2023, 3 May 2023*",
+      "budget_desc": "Entri anggaran bertenaga AI - cukup deskripsikan transaksi Anda",
+      "budget_example": "*Deskripsikan transaksi Anda secara alami*\n\n*Contoh:*\n_budget habis 50 untuk kopi_\n_budget dapat gaji 3000_\n_budget bayar sewa 200_\n_budget taksi 15_",
+      "budget_failed": "*Tidak bisa memahami transaksi. Silakan coba lagi.*\n\n_Contoh: budget habis 50 untuk kopi_",
+      "budget_success": "*{0} tercatat*\n_Jumlah: {1}_\n_Kategori: {2}_\n_Catatan: {3}_\n\n*Total {0} bulan ini: {4}*"
     },
     "exif": {
       "desc": "Ekstrak metadata Exif dari sticker",

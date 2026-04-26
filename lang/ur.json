@@ -889,6 +889,19 @@
       "desc": "Anti group mention settings manage karein 🛡️",
       "ignore_prompt": "*Boss, ignore karne ke liye ek JID dein.* 🕵️‍♂️"
     },
+    "antigstatus": {
+      "usage": "> Usage:\n- antigstatus on | off — Group status protection ko enable ya disable karein\n- antigstatus ignore jid,jid,... — Khas groups se group status protection ko ignore karein\n- antigstatus unignore jid,jid,... — Ignore list se nikaalein\n- antigstatus list — Ignore list dekhein\n- antigstatus clear — Ignore list clear karein",
+      "filter": "Group status protection ke liye ignore JIDs update kar diye gaye hain.",
+      "enabled": "Group status protection enable kar diya gaya hai.",
+      "disabled": "Group status protection disable kar diya gaya hai.",
+      "desc": "Anti group status settings manage karein 🛡️",
+      "ignore_prompt": "*Boss, ignore karne ke liye ek JID dein.* 🕵️‍♂️",
+      "unignore_prompt": "*Boss, unignore karne ke liye ek JID dein.* 🕵️‍♂️",
+      "removed": "JIDs ignore list se nikaal diye gaye. 🗑️",
+      "list_empty": "*Ignore list mein koi group nahi hai.*",
+      "list_header": "*Ignored groups:*",
+      "cleared": "*Ignore list clear kar di gayi.* 🧹"
+    },
     "reminder": {
       "desc": "Google Calendar reminders ko manage karein.",
       "usage": "> *Reminders ka Istimal:*\n- `reminder <text>` - Naya reminder set karein (maslan: 'meeting kal 10 baje')\n- `reminder list` - Tamam reminders ki list dekhein\n- `reminder del <id>` - Reminder delete karein",
@@ -1017,7 +1030,11 @@
       "del_not_found": "_{0} list mein nahi hai._",
       "del_success": "_{0} list se hata diya gaya._",
       "summary_desc": "Budget summary lene ke liye",
-      "summary_example": "*Example : summary 1 May 2023, 3 May 2023*"
+      "summary_example": "*Example : summary 1 May 2023, 3 May 2023*",
+      "budget_desc": "AI se budget entry karne ke liye - bas apna transaction batao",
+      "budget_example": "*Apna transaction naturally batao*\n\n*Examples:*\n_budget coffee pe 50 kharch kiye_\n_budget salary mili 3000_\n_budget rent diya 200_\n_budget taxi 15_",
+      "budget_failed": "*Transaction samajh nahi aaya. Dobara try karein.*\n\n_Example: budget coffee pe 50 kharch kiye_",
+      "budget_success": "*{0} record ho gaya*\n_Amount: {1}_\n_Category: {2}_\n_Remark: {3}_\n\n*Is mahine ka {0} total: {4}*"
     },
     "exif": {
       "desc": "Sticker se Exif metadata nikalein",
