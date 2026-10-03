@@ -1043,8 +1043,8 @@ axios@^1.3.3:
     proxy-from-env "^1.1.0"
 
 "baileys@git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git":
-  version "7.0.0-rc.9"
-  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#fee26345c71ab538718828f23712c2d90f116d93"
+  version "7.1.0"
+  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#9f6b738fa37444ca7669be2e208303529dc46d42"
   dependencies:
     "@cacheable/node-cache" "^1.4.0"
     "@hapi/boom" "^9.1.3"
@@ -4721,10 +4721,10 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-youtubei.js@^18.2.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-18.0.0.tgz#f14876111984e79208339c85b66ca03f55401d0e"
-  integrity sha512-7Tztl5QzNL4nIhiAxa4P/0C8cDDsUe0j4iaUeNiaA+ZfSe/l+HkHxXyoWlQXNW7IPi2n6AW23ysVMJLDh+AwWQ==
+youtubei.js@^18.0.0:
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-18.1.0.tgz#f2019de7a9c33fcf964490d3c780c42d028511a5"
+  integrity sha512-4Goo3ZeO6/kE8Mq67eC8Z9K1rijeqRwyKxf/YM4lqf8bB4r/s8JC0V3YFx7+l/AJR3LnAsulTsiIj+AFe0cduA==
   dependencies:
     "@bufbuild/protobuf" "^2.0.0"
     fflate "^0.8.2"
